@@ -1,7 +1,7 @@
-@media (max-width: 930px) {
-  main .slide-images{
-   position: 0;
-   margin: 0;
+@media (max-width: 1250px) {
+  main .slide-images {
+    position: 0;
+    margin: 0;
   }
 
   main .slide-images img {
@@ -64,7 +64,8 @@
   }
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -117,7 +118,7 @@ header .menu a:hover {
 }
 
 
-.footer-contact  img {
+.footer-contact img {
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -159,6 +160,10 @@ header .menu a:hover {
 
 .our-services {
   padding: 0 8rem 5rem 8rem;
+}
+
+.card-group {
+  gap: 2rem;
 }
 
 .our-services h2 {
